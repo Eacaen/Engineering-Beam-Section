@@ -21,7 +21,7 @@ ORIGIN Project from [composite-blade-design](https://github.com/Eacaen/composite
 - Show accurate calculate information of results, display figures of  normal stress and shear flow distribution,the number of profile node , the location of shear center.
 
 ## Data flow of the Project
-<img src="fig/dataflow.png" data-canonical-src="fig/dataflow.png" />
+<img width="400" src="fig/cal-flow.png" data-canonical-src="fig/cal-flow.png" />
 
 ## Task achieved:
 - [x] calculate normal stress & shaer flow & shear center of open profile.
@@ -37,9 +37,6 @@ ORIGIN Project from [composite-blade-design](https://github.com/Eacaen/composite
 ## Brief intro
 ### Coordinate System
  * the input xy data is the actual loation of profile, in the calculation need the Sx=Sy=0, the Jxy=0 is not necessart.
-
-### Calculation flow chart
-<img src="fig/cal-flow.png" data-canonical-src="fig/cal-flow.png" />
 
 
 ### Profile shear flow&center calculation
@@ -63,9 +60,9 @@ The calculation of laminate stress, strain and failure Criterion based on the Cl
     <img src="fig/close_ddd2.PNG" data-canonical-src="fig/close_ddd2.PNG" />
 
 ## Examples
-<img width="400" src="fig/dao-C.png" data-canonical-src="fig/dao-C.png" />
-<img width="400" src="fig/[]2.png" data-canonical-src="fig/[]2.png" />
-<img width="400" src="fig/fuselage.png" data-canonical-src="fig/fuselage.png" />
+<img align="left" width="400" src="fig/dao-C.png" data-canonical-src="fig/dao-C.png" />
+<img align="right" width="400" src="fig/[]2.png" data-canonical-src="fig/[]2.png" />
+<img width="600" src="fig/fuselage.png" data-canonical-src="fig/fuselage.png" />
 
 ## The order of profile nodes
 The Sx and Sy should calculate from the free edge of the profile, when the profile is a close one, you should choose a cut point and the order of profile nodes is very important during calculation.
