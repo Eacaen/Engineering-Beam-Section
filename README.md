@@ -11,8 +11,6 @@ ORIGIN Project from [composite-blade-design](https://github.com/Eacaen/composite
 
 [Running requirements](#running-requirements) | [Installation](#installation) | [License](#license) 
 
-<img align="right"  src="fig/close_ddd2.PNG" data-canonical-src="fig/close_ddd2.PNG" />
-
 ********************************
 ##### Project code for shear center&flow calculation,PARTLY FINISH.
 ********************************
@@ -41,7 +39,7 @@ ORIGIN Project from [composite-blade-design](https://github.com/Eacaen/composite
  * the input xy data is the actual loation of profile, in the calculation need the Sx=Sy=0, the Jxy=0 is not necessart.
 
 ### Calculation flow chart
-<img src="fig/cal-flow" data-canonical-src="fig/cal-flow" />
+<img src="fig/cal-flow.png" data-canonical-src="fig/cal-flow.png" />
 
 
 ### Profile shear flow&center calculation
@@ -62,11 +60,12 @@ The calculation of laminate stress, strain and failure Criterion based on the Cl
     
     ![](http://latex.codecogs.com/png.latex?%5Cdelta_%7B11%7Dq_1&plus;%5Cdelta_%7B12%7Dq_2&plus;%5CDelta_%7B1p%7D%3D%5COmega_%7B%5CRmnum%7B1%7D%7D%5Cphi%20%5C%5C%20%5Cdelta_%7B21%7Dq_1&plus;%5Cdelta_%7B22%7Dq_2&plus;%5Cdelta_%7B23%7Dq_3&plus;%5CDelta_%7B2p%7D%3D%5COmega_%7B%5CRmnum%7B2%7D%7D%5Cphi%20%5C%5C%20%5Cdelta_%7B32%7Dq_2&plus;%5Cdelta_%7B33%7Dq_3&plus;%5CDelta_%7B3p%7D%3D%5COmega_%7B%5CRmnum%7B3%7D%7D%5Cphi%20%5C%5C%20%5COmega_%7B%5CRmnum%7B1%7D%7Dq_1&plus;%5COmega_%7B%5CRmnum%7B2%7D%7Dq_2&plus;%5COmega_%7B%5CRmnum%7B3%7D%7Dq_3&plus;%5Coint_%7B%5CRmnum%7B1%7D-%5CRmnum%7B2%7D-%5CRmnum%7B3%7D%7D%5Coverline%7Bq%7D%5Crho%20ds%20%3D%20Q_y%20x)
 
+    <img src="fig/close_ddd2.PNG" data-canonical-src="fig/close_ddd2.PNG" />
 
 ## Examples
-<img src="fig/dao-C.png" data-canonical-src="fig/dao-C.png" />
-<img src="fig/[]2.png" data-canonical-src="fig/[]2.png" />
-<img src="fig/fuselage.png" data-canonical-src="fig/fuselage.png" />
+<img width="400" src="fig/dao-C.png" data-canonical-src="fig/dao-C.png" />
+<img width="400" src="fig/[]2.png" data-canonical-src="fig/[]2.png" />
+<img width="400" src="fig/fuselage.png" data-canonical-src="fig/fuselage.png" />
 
 ## The order of profile nodes
 The Sx and Sy should calculate from the free edge of the profile, when the profile is a close one, you should choose a cut point and the order of profile nodes is very important during calculation.
