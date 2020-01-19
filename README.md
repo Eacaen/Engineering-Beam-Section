@@ -40,21 +40,14 @@ ORIGIN Project from [composite-blade-design](https://github.com/Eacaen/composite
 
 
 ### Profile shear flow&center calculation
-* The main package is a Python composite materials calculation package.
-The calculation of laminate stress, strain and failure Criterion based on the Classical Lamination Theory ([CLT](https://en.wikipedia.org/wiki/Composite_laminates)).  
-
-    - normal stress in profile section,
-    
+#### normal stress in profile section
     ![](http://latex.codecogs.com/png.latex?%5Csigma_z%20%3D%20%5Cfrac%7BM_yJ_x-M_xJ_%7Bxy%7D%7D%7BJ_xJ_y-J%5E2_%7Bxy%7D%7Dx&plus;%5Cfrac%7BM_xJ_y-M_yJ_%7Bxy%7D%7D%7BJ_xJ_y-J%5E2_%7Bxy%7D%7Dy&plus;%5Cfrac%7BN_z%7D%7BF%7D%3D%5Cfrac%7B%5Coverline%7BM%7D_y%7D%7BJ_y%7Dx&plus;%5Cfrac%7B%5Coverline%7BM%7D_x%7D%7BJ_x%7Dy&plus;%5Cfrac%7BN_z%7D%7BF%7D),
 
-
-    - shear flow in open profile
-    
+#### shear flow in open profile
     ![](http://latex.codecogs.com/png.latex?q%3D%5Cfrac%7B%7BQ%7D_yJ_y-Q_xJ_%7Bxy%7D%7D%7BJ_xJ_y-J_%7Bxy%7D%5E2%7DS_x%20&plus;%20%5Cfrac%7B%7BQ%7D_xJ_x-Q_yJ_%7Bxy%7D%7D%7BJ_xJ_y-J_%7Bxy%7D%5E2%7DS_y).
 
 
-    - shear flow in close profile wuth three cells
-    
+#### shear flow in close profile wuth three cells
     ![](http://latex.codecogs.com/png.latex?%5Cdelta_%7B11%7Dq_1&plus;%5Cdelta_%7B12%7Dq_2&plus;%5CDelta_%7B1p%7D%3D%5COmega_%7B%5CRmnum%7B1%7D%7D%5Cphi%20%5C%5C%20%5Cdelta_%7B21%7Dq_1&plus;%5Cdelta_%7B22%7Dq_2&plus;%5Cdelta_%7B23%7Dq_3&plus;%5CDelta_%7B2p%7D%3D%5COmega_%7B%5CRmnum%7B2%7D%7D%5Cphi%20%5C%5C%20%5Cdelta_%7B32%7Dq_2&plus;%5Cdelta_%7B33%7Dq_3&plus;%5CDelta_%7B3p%7D%3D%5COmega_%7B%5CRmnum%7B3%7D%7D%5Cphi%20%5C%5C%20%5COmega_%7B%5CRmnum%7B1%7D%7Dq_1&plus;%5COmega_%7B%5CRmnum%7B2%7D%7Dq_2&plus;%5COmega_%7B%5CRmnum%7B3%7D%7Dq_3&plus;%5Coint_%7B%5CRmnum%7B1%7D-%5CRmnum%7B2%7D-%5CRmnum%7B3%7D%7D%5Coverline%7Bq%7D%5Crho%20ds%20%3D%20Q_y%20x)
 
     <img src="fig/close_ddd2.PNG" data-canonical-src="fig/close_ddd2.PNG" />
